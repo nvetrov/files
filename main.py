@@ -163,7 +163,7 @@ def rewrite_file(path1=None, path2=None, path3=None):
                 f_total.write(str(len(file3)) + '\n')
                 f_total.writelines(file3)
     else:
-        print('hi')
+        print('Давай лучше без параметров')
     return
 
 
