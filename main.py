@@ -167,8 +167,6 @@ def rewrite_file(path1=None, path2=None, path3=None):
     return
 
 
-# sort_files('1.txt', '2.txt', '3.txt')
-
 if __name__ == '__main__':
     filename = "recipes.txt"
     cook_book = read_cookbook()
